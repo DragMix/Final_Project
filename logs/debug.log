@@ -1,624 +1,121 @@
-[03Jul2022 14:17:26.786] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.2.57, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --nogui]
-[03Jul2022 14:17:26.802] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_312 by Private Build
-[03Jul2022 14:17:26.822] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]
-[03Jul2022 14:17:26.846] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : []
-[03Jul2022 14:17:27.058] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,object_holder_definalize,runtime_enum_extender,accesstransformer,capability_inject_definalize,runtimedistcleaner]
-[03Jul2022 14:17:27.121] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
-[03Jul2022 14:17:27.133] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
-[03Jul2022 14:17:27.189] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
-[03Jul2022 14:17:27.189] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
-[03Jul2022 14:17:27.191] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
-[03Jul2022 14:17:27.192] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
-[03Jul2022 14:17:27.192] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
-[03Jul2022 14:17:27.193] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
-[03Jul2022 14:17:27.200] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 31.2
-[03Jul2022 14:17:27.206] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 31.2 loading
-[03Jul2022 14:17:27.207] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 5.1.2+70+master.2845bb9
-[03Jul2022 14:17:27.208] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
-[03Jul2022 14:17:27.217] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 2.1.3+56+master.cd48380
-[03Jul2022 14:17:27.217] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 2.2.1+1+2.2.x.150ed6c
-[03Jul2022 14:17:27.218] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
-[03Jul2022 14:17:27.222] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 2.0.3+8+master.ca72757
-[03Jul2022 14:17:27.222] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 3.0.0+10+master.d73b00c
-[03Jul2022 14:17:27.222] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
-[03Jul2022 14:17:27.702] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[03Jul2022 14:17:27.709] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
-[03Jul2022 14:17:27.714] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
-[03Jul2022 14:17:27.778] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
-[03Jul2022 14:17:27.779] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
-[03Jul2022 14:17:27.784] [main/DEBUG] [mixin/]: Mixin bootstrap service org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapperBootstrap is not available: LaunchWrapper is not available
-[03Jul2022 14:17:27.792] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in sun.misc.Launcher$AppClassLoader@6d6f6e28
-[03Jul2022 14:17:27.862] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/home/flynn/Final_Project/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
-[03Jul2022 14:17:27.881] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
-[03Jul2022 14:17:27.881] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(4f56a0a2)
-[03Jul2022 14:17:27.895] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(4f56a0a2)
-[03Jul2022 14:17:27.896] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(4f56a0a2)
-[03Jul2022 14:17:27.897] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(4f56a0a2)
-[03Jul2022 14:17:27.898] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(4f56a0a2)
-[03Jul2022 14:17:27.901] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
-[03Jul2022 14:17:27.902] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
-[03Jul2022 14:17:27.902] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
-[03Jul2022 14:17:27.912] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : /home/flynn/Final_Project
-[03Jul2022 14:17:27.913] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /home/flynn/Final_Project
-[03Jul2022 14:17:27.914] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making MODSDIR directory : /home/flynn/Final_Project/mods
-[03Jul2022 14:17:27.915] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created MODSDIR directory : /home/flynn/Final_Project/mods
-[03Jul2022 14:17:27.915] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /home/flynn/Final_Project/mods
-[03Jul2022 14:17:27.916] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making CONFIGDIR directory : /home/flynn/Final_Project/config
-[03Jul2022 14:17:27.928] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created CONFIGDIR directory : /home/flynn/Final_Project/config
-[03Jul2022 14:17:27.928] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /home/flynn/Final_Project/config
-[03Jul2022 14:17:27.929] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /home/flynn/Final_Project/config/fml.toml
-[03Jul2022 14:17:27.929] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
-[03Jul2022 14:17:28.305] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /home/flynn/Final_Project/config/fml.toml is not correct. Correcting
-[03Jul2022 14:17:28.346] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
-[03Jul2022 14:17:28.366] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making default config directory directory : /home/flynn/Final_Project/defaultconfigs
-[03Jul2022 14:17:28.366] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created default config directory directory : /home/flynn/Final_Project/defaultconfigs
-[03Jul2022 14:17:28.366] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
-[03Jul2022 14:17:28.371] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
-[03Jul2022 14:17:28.372] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmlserver as launch service
-[03Jul2022 14:17:28.388] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.15.2' MCP Version: '20200515.085601' Forge Version: '31.2.57' Forge group: 'net.minecraftforge'
-[03Jul2022 14:17:28.390] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR asm at path /home/flynn/Final_Project/libraries/org/ow2/asm/asm/7.2/asm-7.2.jar
-[03Jul2022 14:17:28.392] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found probable library path /home/flynn/Final_Project/libraries
-[03Jul2022 14:17:28.393] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found forge path /home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar is present
-[03Jul2022 14:17:28.394] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: SRG MC at /home/flynn/Final_Project/libraries/net/minecraft/server/1.15.2-20200515.085601/server-1.15.2-20200515.085601-srg.jar is present
-[03Jul2022 14:17:28.394] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: MC Extras at /home/flynn/Final_Project/libraries/net/minecraft/server/1.15.2/server-1.15.2-extra.jar is present
-[03Jul2022 14:17:28.394] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Forge patches at /home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar is present
-[03Jul2022 14:17:28.402] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
-[03Jul2022 14:17:28.403] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding forge as a language from /home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar
-[03Jul2022 14:17:28.406] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding file:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar to languageloader classloader
-[03Jul2022 14:17:28.598] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
-[03Jul2022 14:17:28.598] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 31.2
-[03Jul2022 14:17:28.603] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
-[03Jul2022 14:17:28.616] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
-[03Jul2022 14:17:28.617] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
-[03Jul2022 14:17:28.620] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
-[03Jul2022 14:17:28.622] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
-[03Jul2022 14:17:28.626] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
-[03Jul2022 14:17:28.627] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
-[03Jul2022 14:17:28.627] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
-[03Jul2022 14:17:28.627] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
-[03Jul2022 14:17:28.687] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
-[03Jul2022 14:17:28.735] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
-[03Jul2022 14:17:28.840] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar
-[03Jul2022 14:17:28.981] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.2.57-universal.jar with {forge} mods - versions {31.2.57}
-[03Jul2022 14:17:28.982] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar with language javafml
-[03Jul2022 14:17:29.066] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
-[03Jul2022 14:17:29.086] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
-[03Jul2022 14:17:29.086] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar
-[03Jul2022 14:17:29.091] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.2.57-server.jar with {minecraft} mods - versions {1.15.2}
-[03Jul2022 14:17:29.092] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar with language minecraft
-[03Jul2022 14:17:29.249] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory requirements
-[03Jul2022 14:17:29.280] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory mod requirements missing
-[03Jul2022 14:17:31.371] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
-[03Jul2022 14:17:31.371] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
-[03Jul2022 14:17:31.372] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
-[03Jul2022 14:17:31.373] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
-[03Jul2022 14:17:31.373] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
-[03Jul2022 14:17:31.373] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
-[03Jul2022 14:17:31.373] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
-[03Jul2022 14:17:32.288] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[03Jul2022 14:17:32.334] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7927bd9f to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
-[03Jul2022 14:17:32.335] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@514eedd8 to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
-[03Jul2022 14:17:32.335] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@617fe9e1 to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
-[03Jul2022 14:17:32.336] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6970140a to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
-[03Jul2022 14:17:32.336] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1cf2fed4 to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
-[03Jul2022 14:17:32.336] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3af4e0bf to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
-[03Jul2022 14:17:32.336] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
-[03Jul2022 14:17:32.403] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(4f56a0a2)]
-[03Jul2022 14:17:32.403] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(4f56a0a2)]
-[03Jul2022 14:17:32.404] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-universal.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar)
-[03Jul2022 14:17:32.404] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-universal.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar)
-[03Jul2022 14:17:32.404] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-universal.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar)
-[03Jul2022 14:17:32.404] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-universal.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar)
-[03Jul2022 14:17:32.405] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-universal.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar)
-[03Jul2022 14:17:32.405] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-universal.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar)]
-[03Jul2022 14:17:32.405] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-server.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar)
-[03Jul2022 14:17:32.405] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-server.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar)
-[03Jul2022 14:17:32.405] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-server.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar)
-[03Jul2022 14:17:32.406] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-server.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar)
-[03Jul2022 14:17:32.406] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-server.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar)
-[03Jul2022 14:17:32.406] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-server.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar)]
-[03Jul2022 14:17:32.406] [main/DEBUG] [mixin/]: inject() running with 3 agents
-[03Jul2022 14:17:32.407] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(4f56a0a2)]
-[03Jul2022 14:17:32.407] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-universal.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar)]
-[03Jul2022 14:17:32.407] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-server.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar)]
-[03Jul2022 14:17:32.408] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., --nogui]
-[03Jul2022 14:17:32.759] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
-[03Jul2022 14:17:32.830] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[03Jul2022 14:17:39.515] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowingFluidBlock
-[03Jul2022 14:17:39.993] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/StairsBlock
-[03Jul2022 14:17:40.478] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowerPotBlock
-[03Jul2022 14:18:06.331] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/BucketItem
-[03Jul2022 14:18:06.428] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/FishBucketItem
-[03Jul2022 14:18:10.074] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/potion/EffectInstance
-[03Jul2022 14:18:24.497] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[03Jul2022 14:18:24.503] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03Jul2022 14:18:24.519] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03Jul2022 14:18:24.524] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[03Jul2022 14:18:24.547] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03Jul2022 14:18:24.877] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
-[03Jul2022 14:18:25.528] [Server thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 4557
-[03Jul2022 14:18:27.433] [Server thread/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
-[03Jul2022 14:18:27.504] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Using 1 threads for parallel mod-loading
-[03Jul2022 14:18:27.510] [Server thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@63f34b70
-[03Jul2022 14:18:27.593] [Server thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@63f34b70
-[03Jul2022 14:18:27.598] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@63f34b70 - got cpw.mods.modlauncher.TransformingClassLoader@63f34b70
-[03Jul2022 14:18:27.598] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@63f34b70 & cpw.mods.modlauncher.TransformingClassLoader@63f34b70
-[03Jul2022 14:18:27.712] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.minecraftforge.common.ForgeMod with cpw.mods.modlauncher.TransformingClassLoader@63f34b70
-[03Jul2022 14:18:27.776] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:CONSTRUCT
-[03Jul2022 14:18:27.815] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance forge of type net.minecraftforge.common.ForgeMod
-[03Jul2022 14:18:27.816] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 31.2 from cpw.mods.modlauncher.TransformingClassLoader@63f34b70
-[03Jul2022 14:18:27.816] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 31.2.57
-[03Jul2022 14:18:27.816] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 31.2
-[03Jul2022 14:18:27.816] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
-[03Jul2022 14:18:27.821] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.15.2
-[03Jul2022 14:18:27.821] [modloading-worker-1/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20200515.085601
-[03Jul2022 14:18:27.821] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.57, for MC 1.15.2 with MCP 20200515.085601
-[03Jul2022 14:18:27.848] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.57 Initialized
-[03Jul2022 14:18:28.581] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
-[03Jul2022 14:18:28.582] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
-[03Jul2022 14:18:28.625] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance forge of type net.minecraftforge.common.ForgeMod
-[03Jul2022 14:18:28.625] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for forge
-[03Jul2022 14:18:28.710] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
-[03Jul2022 14:18:28.773] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for forge
-[03Jul2022 14:18:28.775] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:CREATE_REGISTRIES
-[03Jul2022 14:18:28.776] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.NewRegistry
-[03Jul2022 14:18:28.778] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.NewRegistry
-[03Jul2022 14:18:29.030] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.030] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block>
-[03Jul2022 14:18:29.030] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block>
-[03Jul2022 14:18:29.051] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.051] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:item>
-[03Jul2022 14:18:29.051] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:item>
-[03Jul2022 14:18:29.054] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.054] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
-[03Jul2022 14:18:29.054] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
-[03Jul2022 14:18:29.054] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.054] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:moddimensions>
-[03Jul2022 14:18:29.054] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:moddimensions>
-[03Jul2022 14:18:29.055] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.055] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:activities>
-[03Jul2022 14:18:29.055] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:activities>
-[03Jul2022 14:18:29.055] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.055] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome>
-[03Jul2022 14:18:29.056] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome>
-[03Jul2022 14:18:29.056] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.056] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
-[03Jul2022 14:18:29.056] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
-[03Jul2022 14:18:29.057] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.057] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
-[03Jul2022 14:18:29.057] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
-[03Jul2022 14:18:29.057] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.080] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block_placer_type>
-[03Jul2022 14:18:29.080] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block_placer_type>
-[03Jul2022 14:18:29.081] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.082] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block_state_provider_type>
-[03Jul2022 14:18:29.082] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block_state_provider_type>
-[03Jul2022 14:18:29.082] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.082] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:carver>
-[03Jul2022 14:18:29.091] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:carver>
-[03Jul2022 14:18:29.092] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.092] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
-[03Jul2022 14:18:29.093] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
-[03Jul2022 14:18:29.094] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.094] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
-[03Jul2022 14:18:29.094] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
-[03Jul2022 14:18:29.094] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.094] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
-[03Jul2022 14:18:29.094] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
-[03Jul2022 14:18:29.095] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.095] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:decorator>
-[03Jul2022 14:18:29.096] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:decorator>
-[03Jul2022 14:18:29.097] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.099] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:enchantment>
-[03Jul2022 14:18:29.099] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:enchantment>
-[03Jul2022 14:18:29.100] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.100] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:entity_type>
-[03Jul2022 14:18:29.100] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:entity_type>
-[03Jul2022 14:18:29.102] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.102] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:feature>
-[03Jul2022 14:18:29.102] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:feature>
-[03Jul2022 14:18:29.103] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.103] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:fluid>
-[03Jul2022 14:18:29.103] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:fluid>
-[03Jul2022 14:18:29.103] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.123] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:foliage_placer_type>
-[03Jul2022 14:18:29.123] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:foliage_placer_type>
-[03Jul2022 14:18:29.124] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.125] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
-[03Jul2022 14:18:29.125] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
-[03Jul2022 14:18:29.126] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.126] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:menu>
-[03Jul2022 14:18:29.126] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:menu>
-[03Jul2022 14:18:29.126] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.127] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
-[03Jul2022 14:18:29.127] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
-[03Jul2022 14:18:29.127] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.127] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:motive>
-[03Jul2022 14:18:29.127] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:motive>
-[03Jul2022 14:18:29.128] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.128] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:particle_type>
-[03Jul2022 14:18:29.129] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:particle_type>
-[03Jul2022 14:18:29.130] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.132] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
-[03Jul2022 14:18:29.132] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
-[03Jul2022 14:18:29.132] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.132] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:potion>
-[03Jul2022 14:18:29.132] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:potion>
-[03Jul2022 14:18:29.133] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.133] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
-[03Jul2022 14:18:29.520] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
-[03Jul2022 14:18:29.521] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.521] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:schedule>
-[03Jul2022 14:18:29.521] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:schedule>
-[03Jul2022 14:18:29.521] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.522] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
-[03Jul2022 14:18:29.522] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
-[03Jul2022 14:18:29.553] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.554] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sound_event>
-[03Jul2022 14:18:29.554] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sound_event>
-[03Jul2022 14:18:29.555] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.555] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:stat_type>
-[03Jul2022 14:18:29.555] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:stat_type>
-[03Jul2022 14:18:29.556] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.556] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
-[03Jul2022 14:18:29.556] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
-[03Jul2022 14:18:29.556] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.556] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:tree_decorator_type>
-[03Jul2022 14:18:29.556] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:tree_decorator_type>
-[03Jul2022 14:18:29.557] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
-[03Jul2022 14:18:29.557] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
-[03Jul2022 14:18:29.557] [Server thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
-[03Jul2022 14:18:29.574] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
-[03Jul2022 14:18:29.575] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMMON_SETUP
-[03Jul2022 14:18:29.596] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLCommonSetupEvent
-[03Jul2022 14:18:30.913] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLCommonSetupEvent
-[03Jul2022 14:18:30.916] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:SIDED_SETUP
-[03Jul2022 14:18:30.917] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLDedicatedServerSetupEvent
-[03Jul2022 14:18:30.917] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLDedicatedServerSetupEvent
-[03Jul2022 14:18:30.923] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[03Jul2022 14:18:30.914] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[03Jul2022 14:18:30.971] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[03Jul2022 14:18:30.991] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
-[03Jul2022 14:18:31.918] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[03Jul2022 14:18:32.071] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
-[03Jul2022 14:18:33.032] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
-{
-  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
-  "promos": {
-    "1.1-latest": "1.3.4.29",
-    "1.2.3-latest": "1.4.1.64",
-    "1.2.4-latest": "2.0.0.68",
-    "1.2.5-latest": "3.4.9.171",
-    "1.3.2-latest": "4.3.5.318",
-    "1.4.0-latest": "5.0.0.326",
-    "1.4.1-latest": "6.0.0.329",
-    "1.4.2-latest": "6.0.1.355",
-    "1.4.3-latest": "6.2.1.358",
-    "1.4.4-latest": "6.3.0.378",
-    "1.4.5-latest": "6.4.2.448",
-    "1.4.6-latest": "6.5.0.489",
-    "1.4.7-latest": "6.6.2.534",
-    "1.5-latest": "7.7.0.598",
-    "1.5.1-latest": "7.7.2.682",
-    "1.5.2-latest": "7.8.1.738",
-    "1.5.2-recommended": "7.8.1.738",
-    "1.6.1-latest": "8.9.0.775",
-    "1.6.2-latest": "9.10.1.871",
-    "1.6.2-recommended": "9.10.1.871",
-    "1.6.3-latest": "9.11.0.878",
-    "1.6.4-latest": "9.11.1.1345",
-    "1.6.4-recommended": "9.11.1.1345",
-    "1.7.2-latest": "10.12.2.1161",
-    "1.7.2-recommended": "10.12.2.1161",
-    "1.7.10_pre4-latest": "10.12.2.1149",
-    "1.7.10-latest": "10.13.4.1614",
-    "1.7.10-recommended": "10.13.4.1614",
-    "1.8-latest": "11.14.4.1577",
-    "1.8-recommended": "11.14.4.1563",
-    "1.8.8-latest": "11.15.0.1655",
-    "1.8.9-latest": "11.15.1.2318",
-    "1.8.9-recommended": "11.15.1.2318",
-    "1.9-latest": "12.16.1.1938",
-    "1.9-recommended": "12.16.1.1887",
-    "1.9.4-latest": "12.17.0.2317",
-    "1.9.4-recommended": "12.17.0.2317",
-    "1.10-latest": "12.18.0.2000",
-    "1.10.2-latest": "12.18.3.2511",
-    "1.10.2-recommended": "12.18.3.2511",
-    "1.11-latest": "13.19.1.2199",
-    "1.11-recommended": "13.19.1.2189",
-    "1.11.2-latest": "13.20.1.2588",
-    "1.11.2-recommended": "13.20.1.2588",
-    "1.12-latest": "14.21.1.2443",
-    "1.12-recommended": "14.21.1.2387",
-    "1.12.1-latest": "14.22.1.2485",
-    "1.12.1-recommended": "14.22.1.2478",
-    "1.12.2-latest": "14.23.5.2860",
-    "1.12.2-recommended": "14.23.5.2859",
-    "1.13.2-latest": "25.0.223",
-    "1.14.2-latest": "26.0.63",
-    "1.14.3-latest": "27.0.60",
-    "1.14.4-latest": "28.2.26",
-    "1.14.4-recommended": "28.2.26",
-    "1.15-latest": "29.0.4",
-    "1.15.1-latest": "30.0.51",
-    "1.15.2-latest": "31.2.57",
-    "1.15.2-recommended": "31.2.57",
-    "1.16.1-latest": "32.0.108",
-    "1.16.2-latest": "33.0.61",
-    "1.16.3-latest": "34.1.42",
-    "1.16.3-recommended": "34.1.0",
-    "1.16.4-latest": "35.1.37",
-    "1.16.4-recommended": "35.1.4",
-    "1.16.5-latest": "36.2.35",
-    "1.16.5-recommended": "36.2.34",
-    "1.17.1-latest": "37.1.1",
-    "1.17.1-recommended": "37.1.1",
-    "1.18-latest": "38.0.17",
-    "1.18.1-latest": "39.1.2",
-    "1.18.1-recommended": "39.1.0",
-    "1.18.2-latest": "40.1.54",
-    "1.18.2-recommended": "40.1.0",
-    "1.19-latest": "41.0.63"
-  }
-}
-[03Jul2022 14:18:33.043] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:ENQUEUE_IMC
-[03Jul2022 14:18:33.045] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.57 Target: null
-[03Jul2022 14:18:33.105] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModEnqueueEvent
-[03Jul2022 14:18:33.105] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModEnqueueEvent
-[03Jul2022 14:18:33.106] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:PROCESS_IMC
-[03Jul2022 14:18:33.152] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModProcessEvent
-[03Jul2022 14:18:33.153] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModProcessEvent
-[03Jul2022 14:18:33.154] [Server thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMPLETE
-[03Jul2022 14:18:33.184] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLLoadCompleteEvent
-[03Jul2022 14:18:33.184] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLLoadCompleteEvent
-[03Jul2022 14:18:33.382] [Server thread/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
-[03Jul2022 14:18:35.297] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making serverconfig directory : ./world/serverconfig
-[03Jul2022 14:18:35.297] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created serverconfig directory : ./world/serverconfig
-[03Jul2022 14:18:35.297] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
-[03Jul2022 14:18:35.313] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for ./world/serverconfig/forge-server.toml
-[03Jul2022 14:18:35.315] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file ./world/serverconfig/forge-server.toml
-[03Jul2022 14:18:35.324] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file ./world/serverconfig/forge-server.toml for changes
-[03Jul2022 14:18:35.325] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[03Jul2022 14:18:35.345] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to SimpleCommentedConfig:{}
-[03Jul2022 14:18:35.347] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to false
-[03Jul2022 14:18:35.350] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to false
-[03Jul2022 14:18:35.352] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to false
-[03Jul2022 14:18:35.364] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to 0.1
-[03Jul2022 14:18:35.368] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to 0.05
-[03Jul2022 14:18:35.372] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to true
-[03Jul2022 14:18:35.372] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to false
-[03Jul2022 14:18:35.375] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to 0
-[03Jul2022 14:18:35.390] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.clumpingThreshold was corrected from null to 64
-[03Jul2022 14:18:35.392] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to false
-[03Jul2022 14:18:35.394] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to true
-[03Jul2022 14:18:35.427] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
-[03Jul2022 14:18:35.476] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
-[03Jul2022 14:18:35.477] [Thread-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
-[03Jul2022 14:18:35.649] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[03Jul2022 14:18:36.171] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar
-[03Jul2022 14:18:36.177] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: forge-1.15.2-31.2.57-universal.jar, Default
-[03Jul2022 14:18:39.961] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[03Jul2022 14:18:43.283] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
-[03Jul2022 14:18:50.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[03Jul2022 14:18:56.996] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:18:57.000] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:18:57.000] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:18:57.001] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:18:57.006] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:18:57.018] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:18:57.033] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:18:57.035] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:18:57.038] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:18:57.040] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:18:57.042] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:18:57.045] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:18:57.047] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:18:57.156] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.017] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.031] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.037] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.042] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.045] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.047] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.048] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.063] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.066] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.071] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.074] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.077] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.081] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.085] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.087] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.091] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.094] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.097] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.107] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.108] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.112] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.116] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.122] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.126] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.152] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.152] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.155] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.156] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.161] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.163] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.172] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.172] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.175] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.176] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.178] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.178] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.180] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.183] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.185] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.188] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.189] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.192] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.195] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.195] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.198] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.199] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.202] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.203] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.203] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.206] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.207] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.218] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.220] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.222] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.223] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.224] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.227] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.227] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.230] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.231] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.238] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.243] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.243] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.246] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.249] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.250] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.253] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.253] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.256] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.261] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.262] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.264] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.268] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.271] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.274] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.278] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.281] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.283] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.286] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.288] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.292] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.306] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.307] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.311] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.311] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.315] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.318] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.339] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.340] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.343] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.343] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.344] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.346] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.361] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.364] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.367] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.367] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.369] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.370] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.373] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.374] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.374] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.375] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.378] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.379] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.382] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.384] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.384] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.385] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.386] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.386] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.387] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.387] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.388] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.392] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.403] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.404] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.409] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.410] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.414] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.414] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.424] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.446] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.447] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.448] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.451] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.451] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.455] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.456] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:02.459] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:08.386] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:08.416] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:08.427] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:08.435] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:08.440] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:08.450] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:08.451] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:08.459] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:08.463] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:08.487] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:08.502] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:08.507] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:08.662] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[03Jul2022 14:20:09.219] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
-[03Jul2022 14:20:09.726] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
-[03Jul2022 14:20:10.224] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 23%
-[03Jul2022 14:20:10.669] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 25%
-[03Jul2022 14:20:11.157] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 36%
-[03Jul2022 14:20:11.653] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 40%
-[03Jul2022 14:20:12.167] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 51%
-[03Jul2022 14:20:12.748] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 60%
-[03Jul2022 14:20:13.176] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 75%
-[03Jul2022 14:20:13.652] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 79%
-[03Jul2022 14:20:14.192] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[03Jul2022 14:20:14.685] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[03Jul2022 14:20:15.177] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[03Jul2022 14:20:15.657] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[03Jul2022 14:20:16.163] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[03Jul2022 14:20:16.706] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[03Jul2022 14:20:17.317] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[03Jul2022 14:20:17.707] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[03Jul2022 14:20:18.211] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[03Jul2022 14:20:18.664] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
-[03Jul2022 14:20:19.155] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
-[03Jul2022 14:20:19.691] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
-[03Jul2022 14:20:20.218] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 85%
-[03Jul2022 14:20:20.670] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
-[03Jul2022 14:20:21.162] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
-[03Jul2022 14:20:21.726] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
-[03Jul2022 14:20:22.163] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
-[03Jul2022 14:20:22.727] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
-[03Jul2022 14:20:23.160] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
-[03Jul2022 14:20:23.652] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
-[03Jul2022 14:20:24.164] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
-[03Jul2022 14:20:24.653] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 94%
-[03Jul2022 14:20:25.153] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 94%
-[03Jul2022 14:20:25.658] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
-[03Jul2022 14:20:26.152] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
-[03Jul2022 14:20:26.659] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
-[03Jul2022 14:20:26.962] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 96311 ms
-[03Jul2022 14:20:26.967] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (111.751s)! For help, type "help"
-[03Jul2022 14:20:26.976] [Server thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 170
-[03Jul2022 14:20:27.309] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Queueing dimension 1 to unload
-[03Jul2022 14:20:30.263] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Queueing dimension -1 to unload
-[03Jul2022 14:20:30.276] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Unloading dimension 1
-[03Jul2022 14:20:30.287] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03Jul2022 14:20:30.293] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Unloading dimension -1
-[03Jul2022 14:20:30.293] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03Jul2022 14:20:30.308] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3110ms or 62 ticks behind
-[03Jul2022 14:25:32.709] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
-[03Jul2022 14:25:32.849] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2601ms or 52 ticks behind
-[03Jul2022 14:30:33.091] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
-[03Jul2022 14:31:02.959] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown command
-[03Jul2022 14:31:03.084] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: exit<--[HERE]
-[03Jul2022 14:31:05.899] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown command
-[03Jul2022 14:31:06.007] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: exit<--[HERE]
-[03Jul2022 14:31:11.153] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown command
-[03Jul2022 14:31:11.296] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: quit<--[HERE]
-[03Jul2022 14:31:16.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[03Jul2022 14:31:16.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[03Jul2022 14:31:16.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[03Jul2022 14:31:16.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'world'/minecraft:overworld
-[03Jul2022 14:31:16.999] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03Jul2022 14:31:17.002] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
-[03Jul2022 14:31:17.036] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03Jul2022 14:31:17.522] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : ./world/serverconfig
-[03Jul2022 14:31:17.522] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[06Jul2022 19:34:17.648] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.2.57, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge]
+[06Jul2022 19:34:17.680] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_312 by Private Build
+[06Jul2022 19:34:17.739] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]
+[06Jul2022 19:34:17.796] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : []
+[06Jul2022 19:34:18.448] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,object_holder_definalize,runtime_enum_extender,accesstransformer,capability_inject_definalize,runtimedistcleaner]
+[06Jul2022 19:34:18.572] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[06Jul2022 19:34:18.648] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
+[06Jul2022 19:34:18.867] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[06Jul2022 19:34:18.868] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[06Jul2022 19:34:18.881] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[06Jul2022 19:34:18.882] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[06Jul2022 19:34:18.882] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[06Jul2022 19:34:18.882] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[06Jul2022 19:34:18.902] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 31.2
+[06Jul2022 19:34:18.902] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 31.2 loading
+[06Jul2022 19:34:18.903] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 5.1.2+70+master.2845bb9
+[06Jul2022 19:34:18.903] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[06Jul2022 19:34:18.904] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 2.1.3+56+master.cd48380
+[06Jul2022 19:34:18.905] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 2.2.1+1+2.2.x.150ed6c
+[06Jul2022 19:34:18.916] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[06Jul2022 19:34:18.926] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 2.0.3+8+master.ca72757
+[06Jul2022 19:34:18.926] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 3.0.0+10+master.d73b00c
+[06Jul2022 19:34:18.926] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[06Jul2022 19:34:20.673] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[06Jul2022 19:34:20.680] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[06Jul2022 19:34:20.713] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[06Jul2022 19:34:20.805] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[06Jul2022 19:34:20.813] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[06Jul2022 19:34:20.848] [main/DEBUG] [mixin/]: Mixin bootstrap service org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapperBootstrap is not available: LaunchWrapper is not available
+[06Jul2022 19:34:20.907] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in sun.misc.Launcher$AppClassLoader@6d6f6e28
+[06Jul2022 19:34:21.146] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/home/flynn/Final_Project/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[06Jul2022 19:34:21.169] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[06Jul2022 19:34:21.169] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(4f56a0a2)
+[06Jul2022 19:34:21.175] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(4f56a0a2)
+[06Jul2022 19:34:21.177] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(4f56a0a2)
+[06Jul2022 19:34:21.179] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(4f56a0a2)
+[06Jul2022 19:34:21.180] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(4f56a0a2)
+[06Jul2022 19:34:21.203] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[06Jul2022 19:34:21.205] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[06Jul2022 19:34:21.205] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[06Jul2022 19:34:21.208] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : /home/flynn/Final_Project
+[06Jul2022 19:34:21.210] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /home/flynn/Final_Project
+[06Jul2022 19:34:21.210] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : /home/flynn/Final_Project/mods
+[06Jul2022 19:34:21.210] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /home/flynn/Final_Project/mods
+[06Jul2022 19:34:21.211] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : /home/flynn/Final_Project/config
+[06Jul2022 19:34:21.212] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /home/flynn/Final_Project/config
+[06Jul2022 19:34:21.212] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /home/flynn/Final_Project/config/fml.toml
+[06Jul2022 19:34:21.213] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[06Jul2022 19:34:21.521] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : /home/flynn/Final_Project/defaultconfigs
+[06Jul2022 19:34:21.521] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[06Jul2022 19:34:21.539] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[06Jul2022 19:34:21.540] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmlserver as launch service
+[06Jul2022 19:34:21.607] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.15.2' MCP Version: '20200515.085601' Forge Version: '31.2.57' Forge group: 'net.minecraftforge'
+[06Jul2022 19:34:21.610] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR asm at path /home/flynn/Final_Project/libraries/org/ow2/asm/asm/7.2/asm-7.2.jar
+[06Jul2022 19:34:21.610] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found probable library path /home/flynn/Final_Project/libraries
+[06Jul2022 19:34:21.627] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found forge path /home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar is present
+[06Jul2022 19:34:21.645] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: SRG MC at /home/flynn/Final_Project/libraries/net/minecraft/server/1.15.2-20200515.085601/server-1.15.2-20200515.085601-srg.jar is present
+[06Jul2022 19:34:21.646] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: MC Extras at /home/flynn/Final_Project/libraries/net/minecraft/server/1.15.2/server-1.15.2-extra.jar is present
+[06Jul2022 19:34:21.646] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Forge patches at /home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar is present
+[06Jul2022 19:34:21.657] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
+[06Jul2022 19:34:21.659] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding forge as a language from /home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar
+[06Jul2022 19:34:21.664] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding file:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar to languageloader classloader
+[06Jul2022 19:34:22.534] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[06Jul2022 19:34:22.534] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 31.2
+[06Jul2022 19:34:22.549] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[06Jul2022 19:34:22.556] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[06Jul2022 19:34:22.557] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[06Jul2022 19:34:22.560] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[06Jul2022 19:34:22.561] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[06Jul2022 19:34:22.565] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[06Jul2022 19:34:22.566] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[06Jul2022 19:34:22.566] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[06Jul2022 19:34:22.567] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[06Jul2022 19:34:22.680] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[06Jul2022 19:34:22.840] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[06Jul2022 19:34:23.040] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar
+[06Jul2022 19:34:23.384] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.2.57-universal.jar with {forge} mods - versions {31.2.57}
+[06Jul2022 19:34:23.386] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar with language javafml
+[06Jul2022 19:34:24.260] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[06Jul2022 19:34:24.261] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[06Jul2022 19:34:24.261] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar
+[06Jul2022 19:34:24.268] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.2.57-server.jar with {minecraft} mods - versions {1.15.2}
+[06Jul2022 19:34:24.268] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar with language minecraft
+[06Jul2022 19:34:24.297] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory requirements
+[06Jul2022 19:34:24.302] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory mod requirements missing
+[06Jul2022 19:34:27.240] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[06Jul2022 19:34:27.240] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[06Jul2022 19:34:27.275] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[06Jul2022 19:34:27.286] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[06Jul2022 19:34:27.286] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[06Jul2022 19:34:27.286] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[06Jul2022 19:34:27.288] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[06Jul2022 19:34:28.881] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[06Jul2022 19:34:28.945] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@24a1c17f to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[06Jul2022 19:34:28.946] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7fb9f71f to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[06Jul2022 19:34:28.947] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3b366632 to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[06Jul2022 19:34:28.947] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@51f49060 to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[06Jul2022 19:34:28.948] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@514eedd8 to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[06Jul2022 19:34:28.948] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@617fe9e1 to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[06Jul2022 19:34:28.948] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[06Jul2022 19:34:29.189] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(4f56a0a2)]
+[06Jul2022 19:34:29.198] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(4f56a0a2)]
+[06Jul2022 19:34:29.199] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-universal.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar)
+[06Jul2022 19:34:29.199] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-universal.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar)
+[06Jul2022 19:34:29.200] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-universal.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar)
+[06Jul2022 19:34:29.200] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-universal.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar)
+[06Jul2022 19:34:29.201] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-universal.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar)
+[06Jul2022 19:34:29.201] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-universal.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar)]
+[06Jul2022 19:34:29.202] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-server.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar)
+[06Jul2022 19:34:29.203] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-server.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar)
+[06Jul2022 19:34:29.204] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-server.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar)
+[06Jul2022 19:34:29.204] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-server.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar)
+[06Jul2022 19:34:29.204] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-server.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar)
+[06Jul2022 19:34:29.205] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-server.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar)]
+[06Jul2022 19:34:29.206] [main/DEBUG] [mixin/]: inject() running with 3 agents
+[06Jul2022 19:34:29.206] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(4f56a0a2)]
+[06Jul2022 19:34:29.208] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-universal.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-universal.jar)]
+[06Jul2022 19:34:29.229] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.15.2-31.2.57-server.jar:/home/flynn/Final_Project/libraries/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-server.jar)]
+[06Jul2022 19:34:29.230] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[06Jul2022 19:34:30.197] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out/class: failed to delete one or more files; see suppressed exceptions for details
+[06Jul2022 19:34:30.516] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
